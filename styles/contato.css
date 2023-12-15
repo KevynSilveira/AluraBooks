@@ -38,9 +38,28 @@
    color: var(--azul);
    font-weight: 400;
    font-size: 16px;
-
-
-
-
-    
 }
+
+@media screen and(min-width: 1024px) {
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__descricao{
+        margin-right: 1em;
+        width: 30%;
+    }
+
+
+    .contato__titulo{
+        font-size: 24px;
+    }
+
+    .contato__pesquisa{
+        width: 30%;
+    }
+}
+   
+    
