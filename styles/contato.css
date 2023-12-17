@@ -1,6 +1,7 @@
 .contato{
     background: var(--branco);
     padding: 1.5em;
+    
 }
 
 .contato__titulo{
@@ -60,6 +61,13 @@
     .contato__pesquisa{
         width: 30%;
     }
+}
+
+@media screen and(min-width: 1728px) {
+    .contato{
+        padding: 3em 20vw;
+    }
+
 }
    
     
